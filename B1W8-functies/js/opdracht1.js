@@ -1,8 +1,11 @@
 // opdracht 1
 
-function helloWorld() {
-    var text = "Hello World!"
-    return text;
+var linebreak = "<br>";
+
+function helloWorld(aantal) {
+    for (i = 1; i <= aantal; i++) {
+        document.write(i + ". " + 'Hello World!' + linebreak);
+    }
 }
 
-helloWorld();
+helloWorld(7);
