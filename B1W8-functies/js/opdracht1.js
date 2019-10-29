@@ -1,7 +1,8 @@
 // opdracht 1
 
 function helloWorld() {
-    document.write('Hello World!');
+    var text = "Hello World!"
+    return text;
 }
 
 helloWorld();
