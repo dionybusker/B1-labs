@@ -3,36 +3,32 @@
 var linebreak = "<br>";
 
 function addition(number1, number2) {
-    // var number1 = 10;
-    // var number2 = 12;
+    document.write(number1 + " + " + number2 + " = ");
     return number1 + number2;
 }
 
 function subtraction(number1, number2) {
-    // var number1 = 58;
-    // var number2 = 34;
+    document.write(number1 + " - " + number2 + " = ");
     return number1 - number2;
 }
 
 function multiplication(number1, number2) {
-    // var number1 = 6;
-    // var number2 = 7;
+    document.write(number1 + " * " + number2 + " = ");
     return number1 * number2;
 }
 
 function division(number1, number2) {
-    // var number1 = 144;
-    // var number2 = 12;
+    document.write(number1 + " / " + number2 + " = ");
     return number1 / number2;
 }
 
 function increment(number) {
-    // var number = 12;
+    document.write(number + " + " + "1" + " = ");
     return number = number + 1;
 }
 
 function decrement(number) {
-    // var number = 34;
+    document.write(number + " - " + "1" + " = ");
     return number = number - 1;
 }
 
