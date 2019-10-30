@@ -30,7 +30,7 @@ function age(leeftijd) {
 //     document.write("Hallo " + name() + ", je leeftijd is " + age() + " jaar.");
 // }
 
-while (name() != "stop") {
+while (name() != "stop") { // als je als eerst stop typt, worden de prompts nogmaals herhaalt en dan worden die gepakt voor de naam en leeftijd
     // name();
     age();
 
