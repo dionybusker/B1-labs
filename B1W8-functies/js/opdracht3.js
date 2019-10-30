@@ -4,7 +4,7 @@
 // var leeftijd = prompt("Wat is je leeftijd?");
 
 function name(naam) {
-    var naam = prompt("Wat is je naam? Ben je klaar, vul dan 'stop' in.");
+    var naam = prompt("Wat is je naam?" + "\n" + "Ben je klaar, vul dan 'stop' in.");
     // if (naam != "stop") {
     //     return naam;
     // } else {
@@ -14,7 +14,7 @@ function name(naam) {
 }
 
 function age(leeftijd) {
-    var leeftijd = prompt("Wat is je leeftijd? Ben je klaar, vul dan 'stop' in.");
+    var leeftijd = prompt("Wat is je leeftijd?" + "\n" + "Ben je klaar, vul dan 'stop' in.");
     // if (leeftijd != "stop") {
     //     return leeftijd;
     // } else {
@@ -29,5 +29,16 @@ function age(leeftijd) {
 // } else {
 //     document.write("Hallo " + name() + ", je leeftijd is " + age() + " jaar.");
 // }
+
+while (name() != "stop") {
+    // name();
+    age();
+
+    // if (name() == "stop") {
+    //     document.write("Hallo " + name() + ", je leeftijd is " + age() + " jaar.");
+    // }
+    // break;
+}
+
 
 document.write("Hallo " + name() + ", je leeftijd is " + age() + " jaar.");
