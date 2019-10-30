@@ -1,44 +1,18 @@
-// opdracht 3
+// // opdracht 3
 
-// var naam = prompt("Wat is je naam?");
-// var leeftijd = prompt("Wat is je leeftijd?");
+var linebreak = "<br>"
 
-function name(naam) {
+function nameAge() {
     var naam = prompt("Wat is je naam?" + "\n" + "Ben je klaar, vul dan 'stop' in.");
-    // if (naam != "stop") {
-    //     return naam;
-    // } else {
-    //     prompt("Wat is je naam?");
-    // }
-    return naam;
-}
-
-function age(leeftijd) {
+    if (naam == "stop") {
+        return false;
+    }
     var leeftijd = prompt("Wat is je leeftijd?" + "\n" + "Ben je klaar, vul dan 'stop' in.");
-    // if (leeftijd != "stop") {
-    //     return leeftijd;
-    // } else {
-    //     prompt("Wat is je leeftijd?");
-    // }
-    return leeftijd;
+    if (leeftijd == "stop") {
+        return false;
+    }
+    document.write("Hallo " + naam + ", je leeftijd is " + leeftijd + " jaar." + linebreak);
+    nameAge();
 }
 
-// if (name(naam) != "stop") {
-//     name(naam);
-//     age(leeftijd);
-// } else {
-//     document.write("Hallo " + name() + ", je leeftijd is " + age() + " jaar.");
-// }
-
-while (name() != "stop") { // als je als eerst stop typt, worden de prompts nogmaals herhaalt en dan worden die gepakt voor de naam en leeftijd
-    // name();
-    age();
-
-    // if (name() == "stop") {
-    //     document.write("Hallo " + name() + ", je leeftijd is " + age() + " jaar.");
-    // }
-    // break;
-}
-
-
-document.write("Hallo " + name() + ", je leeftijd is " + age() + " jaar.");
+nameAge();
