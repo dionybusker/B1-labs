@@ -10,6 +10,18 @@ body{
 
 }
 
-/* #puzzle:hover {
-	margin-left: 400px;
+.topleft {
+	position: relative;
+	bottom: 98px;
+	left: 0;
+}
+
+.topright {
+	position: relative;
+	bottom: 21px;
+	left: 25px;
+}
+
+/* #puzzle > :nth-child(2) {
+	
 } */
