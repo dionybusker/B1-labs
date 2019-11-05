@@ -10,18 +10,59 @@ body{
 
 }
 
-.topleft {
-	position: relative;
-	bottom: 98px;
-	left: 0;
+#puzzle:hover {
+	margin-left: 400px;
 }
 
-.topright {
-	position: relative;
-	bottom: 21px;
-	left: 25px;
-}
+#puzzle > .topleft { position: relative; bottom: 98px; left: 0; }
+#puzzle > .topright { position: relative; bottom: 157px; left: 564px }
+#puzzle > .bottomleft { position: relative; bottom: 226px; right: 251px; }
+#puzzle > .bottomright { position: relative; bottom: 304px; left: 288px; }
 
-/* #puzzle > :nth-child(2) {
-	
-} */
+#puzzle > :nth-child(2) { position: relative; bottom: 67px; right: 4px; }
+#puzzle > :nth-child(3) { position: relative; bottom: 84px; right: 8px; }
+#puzzle > :nth-child(4) { position: relative; bottom: 58px; right: 12px; }
+#puzzle > :nth-child(5) { position: relative; bottom: 86px; right: 16px; }
+#puzzle > :nth-child(6) { position: relative; bottom: 40px; right: 20px; }
+#puzzle > :nth-child(7) { position: relative; bottom: 24px; right: 24px; }
+#puzzle > :nth-child(8) { position: relative; bottom: 29px; right: 28px }
+#puzzle > :nth-child(9) { position: relative; bottom: 0; right: 32px }
+#puzzle > :nth-child(11) { position: relative; bottom: 124px; right: 40px }
+#puzzle > :nth-child(12) { position: relative; bottom: 99px; right: 44px }
+#puzzle > :nth-child(13) { position: relative; bottom: 88px; right: 48px }
+#puzzle > :nth-child(14) { position: relative; bottom: 78px; right: 52px }
+#puzzle > :nth-child(15) { position: relative; bottom: 103px; right: 56px }
+#puzzle > :nth-child(16) { position: relative; bottom: 86px; right: 60px }
+#puzzle > :nth-child(17) { position: relative; bottom: 97px; right: 64px }
+#puzzle > :nth-child(18) { position: relative; bottom: 94px; right: 68px }
+#puzzle > :nth-child(19) { position: relative; bottom: 166px; left: 513px }
+#puzzle > :nth-child(20) { position: relative; bottom: 176px; left: 509px }
+#puzzle > :nth-child(21) { position: relative; bottom: 128px; right: 95px }
+#puzzle > :nth-child(22) { position: relative; bottom: 128px; right: 99px }
+#puzzle > :nth-child(23) { position: relative; bottom: 128px; right: 103px }
+#puzzle > :nth-child(24) { position: relative; bottom: 128px; right: 107px }
+#puzzle > :nth-child(25) { position: relative; bottom: 128px; right: 111px }
+#puzzle > :nth-child(26) { position: relative; bottom: 128px; right: 115px; }
+#puzzle > :nth-child(27) { position: relative; bottom: 128px; right: 119px; }
+#puzzle > :nth-child(28) { position: relative; bottom: 250px; left: 447px; }
+#puzzle > :nth-child(29) { position: relative; bottom: 250px; left: 443px; }
+#puzzle > :nth-child(30) { position: relative; bottom: 250px; left: 439px; }
+#puzzle > :nth-child(31) { position: relative; bottom: 178px; right: 165px; }
+#puzzle > :nth-child(32) { position: relative; bottom: 146px; right: 169px; }
+#puzzle > :nth-child(33) { position: relative; bottom: 133px; right: 173px; }
+#puzzle > :nth-child(34) { position: relative; bottom: 153px; right: 177px; }
+#puzzle > :nth-child(35) { position: relative; bottom: 132px; right: 181px; }
+#puzzle > :nth-child(36) { position: relative; bottom: 152px; right: 185px; }
+#puzzle > :nth-child(37) { position: relative; bottom: 300px; left: 365px; }
+#puzzle > :nth-child(38) { position: relative; bottom: 273px; left: 361px; }
+#puzzle > :nth-child(39) { position: relative; bottom: 254px; left: 357px; }
+#puzzle > :nth-child(40) { position: relative; bottom: 285px; left: 353px; }
+#puzzle > :nth-child(42) { position: relative; bottom: 226px; right: 255px; }
+#puzzle > :nth-child(43) { position: relative; bottom: 226px; right: 259px; }
+#puzzle > :nth-child(44) { position: relative; bottom: 226px; right: 263px; }
+#puzzle > :nth-child(45) { position: relative; bottom: 226px; right: 267px; }
+#puzzle > :nth-child(46) { position: relative; bottom: 304px; left: 304px; }
+#puzzle > :nth-child(47) { position: relative; bottom: 304px; left: 300px; }
+#puzzle > :nth-child(48) { position: relative; bottom: 304px; left: 296px; }
+#puzzle > :nth-child(49) { position: relative; bottom: 304px; left: 292px; }
+
